@@ -1,0 +1,26 @@
+{
+  "name": "android-tv-browser-autolaunch",
+  "description": "Android TV App (react-native) that auto-launches on boot and shows a browser with a hard-coded URL",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "apk": "cd android && ./gradlew assembleRelease && cd .. && adb install -r android/app/build/outputs/apk/release/app-release.apk",
+    "apk-install": "adb install -r android/app/build/outputs/apk/release/app-release.apk"
+  },
+  "dependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-webview": "^2.14.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
