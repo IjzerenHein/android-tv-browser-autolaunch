@@ -1,7 +1,7 @@
 {
   "name": "android-tv-browser-autolaunch",
   "description": "Android TV App (react-native) that auto-launches on boot and shows a browser with a hard-coded URL",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
