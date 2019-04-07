@@ -12,3 +12,7 @@ We use it to run a Google Docs presentation on a TV at our tabletennis club TTV 
 ## Build & install
 
     yarn apk
+
+## Update version
+
+    npm version {patch|minor|major|version}
