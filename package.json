@@ -8,7 +8,8 @@
     "test": "jest",
     "android": "react-native run-android",
     "apk": "cd android && ./gradlew assembleRelease && cd .. && adb install -r android/app/build/outputs/apk/release/app-release.apk",
-    "apk-install": "adb install -r android/app/build/outputs/apk/release/app-release.apk"
+    "apk-install": "adb install -r android/app/build/outputs/apk/release/app-release.apk",
+    "postversion": "react-native-version"
   },
   "dependencies": {
     "react": "16.6.1",
